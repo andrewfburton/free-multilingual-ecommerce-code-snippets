@@ -1,0 +1,119 @@
+<!-- Free Multilingual E-commerce With WordPress, WooCommerce & Polylang - wpml-config -->
+<!-- Create a new wpml-config.xml for the "keys" you need and place it into your active theme's directory -->
+<wpml-config>
+	<admin-texts>
+	<!-- WooCommerce - Settings - Shipping Options -->
+		<key name="woocommerce_flat_rate_settings">
+			<key name="title" />
+		</key>
+		<key name="woocommerce_international_delivery_settings">
+			<key name="title" />
+		</key> 
+		<key name="woocommerce_local_delivery_settings">
+			<key name="title" />
+		</key> 
+		<key name="woocommerce_local_pickup_settings">
+			<key name="title" />
+		</key>		
+		<key name="woocommerce_free_shipping_settings">
+			<key name="title" />
+		</key>	
+		<!-- WooCommerce - Settings - Checkout Options -->		
+		<key name="woocommerce_bacs_settings">
+			<key name="title" />
+            <key name="description" />
+            <key name="instructions" />
+		</key> 
+		<key name="woocommerce_cheque_settings">
+			<key name="title" />
+			<key name="description" />
+            <key name="instructions" />
+		</key> 		
+		<key name="woocommerce_cod_settings">
+			<key name="title" />
+			<key name="description" />
+            <key name="instructions" />
+		</key> 	
+		<key name="woocommerce_paypal_settings">
+			<key name="title" />
+			<key name="description" />
+		</key>	
+		<!-- WooCommerce - Settings - Emails - Email Options -->	
+		<key name="woocommerce_email_from_name" />
+		<key name="woocommerce_email_from_address" />		
+		<key name="woocommerce_email_header_image" />
+		<key name="woocommerce_email_footer_text" />
+		<key name="woocommerce_email_base_color" />	
+		<key name="woocommerce_email_background_color" />
+		<key name="woocommerce_email_body_background_color" />
+		<key name="woocommerce_email_text_color" />
+		<!-- WooCommerce - Settings - Emails - Individual Mails -->
+		<!-- Emails - New order -->
+		<key name="woocommerce_new_order_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>
+		<!-- Emails - Cancelled order -->
+		<key name="woocommerce_cancelled_order_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>
+		<!-- Emails - Processing order -->
+		<key name="woocommerce_customer_processing_order_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>
+		<!-- Emails - Completed order -->		
+		<key name="woocommerce_customer_completed_order_settings">
+			<key name="subject" />
+			<key name="heading" />
+			<key name="subject_downloadable" />
+			<key name="heading_downloadable" />
+		</key>
+		<!-- Emails - Refunded order -->
+		<key name="woocommerce_customer_refunded_order_settings">
+			<key name="subject_full" />
+			<key name="subject_partial" />
+			<key name="heading_full" />
+			<key name="heading_partial" />
+		</key>
+		<!-- Emails - Customer invoice -->
+		<key name="woocommerce_customer_invoice_settings">
+			<key name="subject" />
+			<key name="heading" />
+			<key name="subject_paid" />
+			<key name="heading_paid" />
+		</key>
+		<!-- Emails - Customer note -->
+		<key name="woocommerce_customer_note_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>
+		<!-- Emails - Reset password -->
+		<key name="woocommerce_customer_reset_password_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>
+		<!-- Emails - New account -->		
+		<key name="woocommerce_customer_new_account_settings">
+			<key name="subject" />
+			<key name="heading" />
+		</key>		
+		<!-- WooCommerce - Settings - General - Currency Options -->
+		<key name="woocommerce_price_thousand_sep"/>
+		<key name="woocommerce_price_decimal_sep"/>
+		<!-- WooCommerce - Settings - Tax - Price Display Suffix -->
+		<key name="woocommerce_price_display_suffix" />
+		<!-- Stripe for WooCommerce - Chapter 20-->
+		<key name="woocommerce_s4wc_settings">
+			<key name="title" />
+			<key name="description" />
+		</key>
+		<!-- Stripe for WooCommerce with WooCommerce Pay for Payment - Chapter 20-->
+		<key name="woocommerce_s4wc_settings">
+			<key name="title" />
+			<key name="description" />
+			<key name="pay4pay_item_title" />
+		</key>		
+	</admin-texts>
+</wpml-config>
